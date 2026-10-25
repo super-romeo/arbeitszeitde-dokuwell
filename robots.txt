@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://arbeitszeitde.dokufolio.com/sitemap.xml
