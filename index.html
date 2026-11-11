@@ -15,6 +15,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="Für kleine Betriebe in Deutschland: Beginn, Ende und Dauer der Arbeitszeit jedes Beschäftigten erfasst, Pausen eingerechnet, Monatsliste als PDF oder CSV.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -73,38 +77,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Stunden im Blick</a></div>
-  <nav class="top"><a href="#was" data-ev="click_nav_was">Was Sie bekommen</a><a href="price.html" data-ev="click_nav_preis">Preis</a><a href="#beispiel" data-ev="click_nav_beispiel">Beispiel</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Stunden im Blick</a>
+  <nav><a href="#was" data-ev="click_nav_was">Was Sie bekommen</a><a href="price.html" data-ev="click_nav_preis">Preis</a><a href="#beispiel" data-ev="click_nav_beispiel">Beispiel</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Wer wann gearbeitet hat — Beginn, Ende und Dauer jedes Arbeitstags, ohne Stundenzettel</h1>
-    <p class="sub">Für Handwerksbetriebe, Praxen, Läden und Büros mit wenigen Beschäftigten: Kommen und Gehen per Handy, Terminal oder nachträglich durch die Chefin, Pausen und Überstunden gerechnet, und am Monatsende die Liste für das Lohnbüro.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">Das brauche ich</a>
-    <p class="cta-note">Dienst in Vorbereitung · Auf dieser Seite wird keine Zahlung angenommen</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> Für Handwerksbetriebe, Praxen, Läden und Büros</p>
+      <h1 class="rise" style="--i:1" data-len="long">Wer wann gearbeitet hat&nbsp;<span class="soft">— Beginn, Ende und Dauer jedes Arbeitstags, ohne Stundenzettel</span></h1>
+      <p class="rise" style="--i:2">Für Handwerksbetriebe, Praxen, Läden und Büros mit wenigen Beschäftigten: Kommen und Gehen per Handy, Terminal oder nachträglich durch die Chefin, Pausen und Überstunden gerechnet, und am Monatsende die Liste für das Lohnbüro.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">Das brauche ich</a>
+      <p class="meta rise" style="--i:4">Dienst in Vorbereitung · Auf dieser Seite wird keine Zahlung angenommen</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="130" y="168" font-size="40" font-weight="600" fill="#0a1524">Stundenliste</text><line x1="120" y1="210" x2="1080" y2="210" stroke="#dde2ea" stroke-width="3" fill="none" /><rect x="130" y="250" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="200" y="282" font-size="32" fill="#0a1524">Kommen</text><rect x="130" y="350" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="200" y="382" font-size="32" fill="#0a1524">Pausen</text><rect x="130" y="450" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="200" y="482" font-size="32" fill="#0a1524">Überstunden</text><rect x="130" y="550" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="200" y="582" font-size="32" fill="#0a1524">Lohnbüro</text><rect x="700" y="250" width="360" height="400" rx="20" fill="#dfe8f7" /><text x="730" y="314" font-size="34" font-weight="600" fill="#0a1524">Monat</text><rect x="740" y="490" width="48" height="120" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><rect x="820" y="410" width="48" height="200" rx="8" fill="#12397a" stroke="#dde2ea" stroke-width="2" /><rect x="900" y="450" width="48" height="160" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><rect x="980" y="520" width="48" height="90" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /></svg></figure>
+    <dl class="facts">
+      <div><dt>Für</dt><dd>Handwerksbetriebe, Praxen, Läden</dd></div>
+      <div><dt>Was</dt><dd>Beginn, Ende und Dauer</dd></div>
+      <div><dt>Wie</dt><dd>Kommen und Gehen per Handy</dd></div>
+      <div><dt>Dienst</dt><dd>Dienst in Vorbereitung</dd></div>
+    </dl>
+  </section>
 
   <section id="was" data-view="features_view">
-    <h2>Was Sie bekommen</h2>
-    <div class="grid">
-      <div class="card"><b>Kommen und Gehen</b><span>Per Handy, am gemeinsamen Tablet oder nachgetragen.</span><br><a class="btn" href="price.html" data-ev="feature_kommen">Das brauche ich</a></div>
-      <div class="card"><b>Dauer und Pausen</b><span>Tägliche Arbeitszeit mit Pausen, Woche und Monat summiert.</span><br><a class="btn" href="price.html" data-ev="feature_dauer">Das brauche ich</a></div>
-      <div class="card"><b>Überstunden und Urlaub</b><span>Plus- und Minusstunden, Urlaubs- und Krankheitstage.</span><br><a class="btn" href="price.html" data-ev="feature_ueberstunden">Das brauche ich</a></div>
-      <div class="card"><b>PDF und CSV</b><span>Monatsliste für Lohnbüro, Steuerberatung oder Prüfung.</span><br><a class="btn" href="price.html" data-ev="feature_export">Das brauche ich</a></div>
+    <div class="stack"><h2>Was Sie bekommen</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="148" font-size="36" font-weight="600" fill="#0a1524">Kommen und Gehen</text><rect x="130" y="200" width="48" height="48" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><polyline points="142,226 152,236 166,216" fill="none" stroke="#12397a" stroke-width="4" /><rect x="200" y="213" width="340" height="22" rx="8" fill="#dde2ea" /><rect x="130" y="290" width="48" height="48" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><polyline points="142,316 152,326 166,306" fill="none" stroke="#12397a" stroke-width="4" /><rect x="200" y="303" width="290" height="22" rx="8" fill="#dde2ea" /><rect x="130" y="380" width="48" height="48" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="200" y="393" width="240" height="22" rx="8" fill="#dde2ea" /><text x="130" y="490" font-size="30" fill="#566174">Handy</text></svg></div>
+        <h3>Kommen und Gehen</h3><p>Per Handy, am gemeinsamen Tablet oder nachgetragen.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_kommen">Das brauche ich</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="130" font-size="36" font-weight="600" fill="#0a1524">Pausen</text><line x1="140" y1="430" x2="660" y2="430" stroke="#dde2ea" stroke-width="3" fill="none" /><rect x="160" y="290" width="70" height="140" rx="8" fill="#dfe8f7" /><rect x="280" y="210" width="70" height="220" rx="8" fill="#12397a" /><rect x="400" y="340" width="70" height="90" rx="8" fill="#dfe8f7" /><rect x="520" y="260" width="70" height="170" rx="8" fill="#dfe8f7" /><text x="120" y="490" font-size="30" fill="#566174">Woche und Monat</text></svg></div>
+        <h3>Dauer und Pausen</h3><p>Tägliche Arbeitszeit mit Pausen, Woche und Monat summiert.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_dauer">Das brauche ich</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="90" y="60" width="460" height="480" rx="18" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="130" font-size="36" font-weight="600" fill="#0a1524">Überstunden</text><line x1="120" y1="160" x2="510" y2="160" stroke="#dde2ea" stroke-width="3" fill="none" /><rect x="120" y="190" width="300" height="22" rx="8" fill="#dde2ea" /><rect x="120" y="246" width="240" height="22" rx="8" fill="#dde2ea" /><rect x="120" y="302" width="340" height="22" rx="8" fill="#dde2ea" /><rect x="120" y="358" width="180" height="22" rx="8" fill="#dde2ea" /><circle cx="640" cy="300" r="70" fill="#dfe8f7" /><polyline points="606,300 632,328 678,270" fill="none" stroke="#12397a" stroke-width="8" /><text x="120" y="480" font-size="32" fill="#566174">Urlaub</text></svg></div>
+        <h3>Überstunden und Urlaub</h3><p>Plus- und Minusstunden, Urlaubs- und Krankheitstage.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_ueberstunden">Das brauche ich</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="80" width="280" height="440" rx="18" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="460" y="80" width="280" height="440" rx="18" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="84" y="140" font-size="30" font-weight="600" fill="#0a1524">PDF</text><text x="484" y="140" font-size="30" font-weight="600" fill="#0a1524">CSV</text><rect x="90" y="190" width="180" height="20" rx="8" fill="#b9c3d2" /><rect x="90" y="250" width="140" height="20" rx="8" fill="#b9c3d2" /><rect x="90" y="310" width="200" height="20" rx="8" fill="#b9c3d2" /><rect x="490" y="190" width="160" height="20" rx="8" fill="#b9c3d2" /><rect x="490" y="250" width="210" height="20" rx="8" fill="#b9c3d2" /><rect x="490" y="310" width="120" height="20" rx="8" fill="#b9c3d2" /><polygon points="352,292 430,292 430,280 456,308 430,336 430,324 352,324" fill="#12397a" /><text x="484" y="470" font-size="30" fill="#566174">Lohnbüro</text></svg></div>
+        <h3>PDF und CSV</h3><p>Monatsliste für Lohnbüro, Steuerberatung oder Prüfung.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_export">Das brauche ich</a>
+      </article>
     </div>
   </section>
 
-  <section id="beispiel" data-view="example_view">
-    <h2>Beispiel (fiktive Daten)</h2>
-    <p class="fine">Elektrobetrieb mit fünf Gesellen auf wechselnden Baustellen. Jeder tippt morgens auf dem Handy «Kommen» und abends «Gehen»; wer es vergisst, trägt es am nächsten Tag nach, die Korrektur bleibt sichtbar. Am Monatsende schickt die Inhaberin die Stundenliste als CSV ans Lohnbüro — mit 14 Überstunden bei einem Gesellen und zwei Urlaubstagen bei einem anderen.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Paket wählen</a>
+  <section id="beispiel" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Beispiel</h2>
+      <p>Elektrobetrieb mit fünf Gesellen auf wechselnden Baustellen. Jeder tippt morgens auf dem Handy «Kommen» und abends «Gehen»; wer es vergisst, trägt es am nächsten Tag nach, die Korrektur bleibt sichtbar. Am Monatsende schickt die Inhaberin die Stundenliste als CSV ans Lohnbüro — mit 14 Überstunden bei einem Gesellen und zwei Urlaubstagen bei einem anderen.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Paket wählen</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="200" y1="150" x2="1000" y2="150" stroke="#dde2ea" stroke-width="6" fill="none" /><circle cx="240" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="240" y="230" font-size="32" font-weight="600" fill="#0a1524" text-anchor="middle">Kommen</text><circle cx="600" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="600" y="230" font-size="32" font-weight="600" fill="#0a1524" text-anchor="middle">Gehen</text><circle cx="960" cy="150" r="22" fill="#12397a" stroke="#12397a" stroke-width="6" /><text x="960" y="230" font-size="32" font-weight="600" fill="#0a1524" text-anchor="middle">Lohnbüro</text><rect x="120" y="300" width="960" height="420" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="170" y="380" font-size="36" font-weight="600" fill="#0a1524">Stundenliste</text><rect x="170" y="440" width="64" height="64" rx="12" fill="#12397a" /><rect x="260" y="440" width="64" height="64" rx="12" fill="#dfe8f7" /><rect x="350" y="440" width="64" height="64" rx="12" fill="#dfe8f7" /><rect x="440" y="440" width="64" height="64" rx="12" fill="#12397a" /><rect x="530" y="440" width="64" height="64" rx="12" fill="#dfe8f7" /><rect x="620" y="440" width="64" height="64" rx="12" fill="#dfe8f7" /><text x="170" y="640" font-size="32" fill="#566174">Überstunden</text></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>So funktioniert es</h2>
-    <p>Seit dem Beschluss des Bundesarbeitsgerichts vom September 2022 gilt in Deutschland: Arbeitgeber müssen die Arbeitszeit ihrer Beschäftigten erfassen, und zwar Beginn, Ende und Dauer. Das betrifft auch kleine Betriebe mit wenigen Mitarbeitenden.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>So funktioniert es</h2></div>
+    <div class="stack">
+      <p>Seit dem Beschluss des Bundesarbeitsgerichts vom September 2022 gilt in Deutschland: Arbeitgeber müssen die Arbeitszeit ihrer Beschäftigten erfassen, und zwar Beginn, Ende und Dauer. Das betrifft auch kleine Betriebe mit wenigen Mitarbeitenden.</p>
     <p>Wie die Erfassung aussieht, ist bisher nicht vorgeschrieben; auch Aufzeichnungen auf Papier sind möglich. In der Praxis werden Stundenzettel aber gern am Wochenende aus dem Gedächtnis ausgefüllt, gehen verloren oder sind unleserlich — und am Monatsende fehlt dem Lohnbüro die Grundlage.</p>
     <p>Die Software macht die Erfassung zur Routine. Beschäftigte tippen beim Arbeitsbeginn auf «Kommen», bei der Pause auf «Pause» und beim Feierabend auf «Gehen» — auf dem eigenen Handy, an einem Tablet im Betrieb oder am Computer. Die Zeiten werden sofort gespeichert.</p>
     <p>Wer unterwegs arbeitet, zum Beispiel auf Baustellen oder bei Kunden, erfasst seine Zeit dort, wo er gerade ist. Wer keine App nutzen will, schreibt seine Zeiten auf, und die Chefin oder der Chef trägt sie nach.</p>
@@ -119,31 +153,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>Der Einstieg dauert eine halbe Stunde: Betrieb anlegen, Beschäftigte mit ihrer vereinbarten Arbeitszeit eintragen, Einladung verschicken. Die Software läuft im Browser, ohne Installation.</p>
     <p>Die Software ist für kleine Betriebe mit Beschäftigten in Deutschland gedacht. Sie ist in Vorbereitung: Wir prüfen zuerst, ob Betriebe sie brauchen.</p>
     <p>Die Software unterstützt Ihre Zeiterfassung; für die Einhaltung des Arbeitszeitrechts bleibt der Arbeitgeber verantwortlich.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Häufige Fragen</h2>
-    <h3>Muss ein kleiner Betrieb die Arbeitszeit erfassen?</h3>
-    <p>Ja, nach dem Beschluss des Bundesarbeitsgerichts von 2022 müssen Arbeitgeber Beginn, Ende und Dauer der Arbeitszeit erfassen.</p>
-    <h3>Wie erfassen die Beschäftigten ihre Zeit?</h3>
-    <p>Per Handy, an einem gemeinsamen Tablet oder am Computer; nachtragen ist möglich.</p>
-    <h3>Werden Änderungen festgehalten?</h3>
-    <p>Ja, jede Änderung mit Datum, Name und Grund.</p>
-    <h3>In welchem Format kommt die Monatsliste?</h3>
-    <p>Als PDF oder CSV, zum Beispiel für das Lohnbüro.</p>
-    <h3>Kann ich sie schon nutzen?</h3>
-    <p>Noch nicht. Die Software ist in Vorbereitung, und wir prüfen, ob Betriebe sie brauchen.</p>
+    <div class="stack"><h2>Häufige Fragen</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Muss ein kleiner Betrieb die Arbeitszeit erfassen?</h3><p>Ja, nach dem Beschluss des Bundesarbeitsgerichts von 2022 müssen Arbeitgeber Beginn, Ende und Dauer der Arbeitszeit erfassen.</p></div>
+      <div class="split flip"><h3>Wie erfassen die Beschäftigten ihre Zeit?</h3><p>Per Handy, an einem gemeinsamen Tablet oder am Computer; nachtragen ist möglich.</p></div>
+      <div class="split flip"><h3>Werden Änderungen festgehalten?</h3><p>Ja, jede Änderung mit Datum, Name und Grund.</p></div>
+      <div class="split flip"><h3>In welchem Format kommt die Monatsliste?</h3><p>Als PDF oder CSV, zum Beispiel für das Lohnbüro.</p></div>
+      <div class="split flip"><h3>Kann ich sie schon nutzen?</h3><p>Noch nicht. Die Software ist in Vorbereitung, und wir prüfen, ob Betriebe sie brauchen.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Legen Sie Ihren Betrieb an</h2>
-    <p><label>Anzahl Beschäftigte<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— bitte wählen —</option><option>1–3</option><option>4–10</option><option>11–25</option><option>Mehr als 25</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Starten</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Legen Sie Ihren Betrieb an</h2>
+    </div>
+    <div class="tile stack">
+      <label>Anzahl Beschäftigte<select data-ev-focus="form_start"><option value="">— bitte wählen —</option><option>1–3</option><option>4–10</option><option>11–25</option><option>Mehr als 25</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Starten</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Stunden im Blick</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Datenschutz</a></p>
-  <p class="muted">Software für Ihre Zeiterfassung. Für das Arbeitszeitrecht bleibt der Arbeitgeber verantwortlich.</p>
+  <p>Software für Ihre Zeiterfassung. Für das Arbeitszeitrecht bleibt der Arbeitgeber verantwortlich.</p>
 </div></footer>
 
 </body>
